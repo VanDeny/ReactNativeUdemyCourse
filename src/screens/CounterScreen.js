@@ -13,16 +13,12 @@ const CounterScreen = () => {
             <Button
                 title='Increase'
                 onPress={() => {
-                    //Nope
-                    //counter++;
-                    //Yup
                     dispatch({value: 1});
                 }}
             />
             <Button
                 title='Decrease'
                 onPress={() => {
-                    //counter--;
                     dispatch({value: -1});
                 }}
             />
